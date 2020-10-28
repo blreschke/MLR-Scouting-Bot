@@ -1,4 +1,4 @@
-from pull_data import *
+from player_data import *
 from structs import PlateAppearance as PA
 
 def getInRange(numList, lowerBound, upperBound):

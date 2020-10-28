@@ -1,0 +1,290 @@
+[
+  {
+    "id": 31295,
+    "game": {
+      "id": 751,
+      "season": 4,
+      "session": 0,
+      "awayTeam": {
+        "id": 11,
+        "name": "Chicago Cubs",
+        "tag": "CHC",
+        "park": 10,
+        "colorDiscord": 1525430,
+        "colorRoster": 13382707,
+        "colorRosterBG": 930694,
+        "discordRole": "490677176090361866",
+        "logoURL": "https://i.imgur.com/Nw5XsQf.png"
+      },
+      "homeTeam": {
+        "id": 51,
+        "name": "Minnesota Twins",
+        "tag": "MIN",
+        "park": 39,
+        "colorDiscord": 16121955,
+        "colorRoster": 13111342,
+        "colorRosterBG": 11100,
+        "discordRole": "592802159704277002",
+        "logoURL": "https://i.imgur.com/NE2RAm6.png"
+      },
+      "id36": "e9i3j3"
+    },
+    "batter": {
+      "id": 518,
+      "name": "Arthur Vandelay",
+      "firstName": "Arthur",
+      "lastName": "Vandelay",
+      "redditName": "/u/Dahdscear"
+    },
+    "swing": 380,
+    "pitcher": {
+      "id": 67,
+      "name": "Leonard Boyfriend",
+      "firstName": "Leonard",
+      "lastName": "Boyfriend",
+      "redditName": "/u/iunnolol"
+    },
+    "pitch": 33,
+    "diff": 347,
+    "result": "FO",
+    "beforeState": {
+      "id": 31614,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 0,
+      "inning": "B3",
+      "firstOccupied": false,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "afterState": {
+      "id": 31637,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 1,
+      "inning": "B3",
+      "firstOccupied": false,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "outsTracked": 1,
+    "runsScored": 0,
+    "scorers": null
+  },
+  {
+    "id": 31305,
+    "game": {
+      "id": 751,
+      "season": 4,
+      "session": 0,
+      "awayTeam": {
+        "id": 11,
+        "name": "Chicago Cubs",
+        "tag": "CHC",
+        "park": 10,
+        "colorDiscord": 1525430,
+        "colorRoster": 13382707,
+        "colorRosterBG": 930694,
+        "discordRole": "490677176090361866",
+        "logoURL": "https://i.imgur.com/Nw5XsQf.png"
+      },
+      "homeTeam": {
+        "id": 51,
+        "name": "Minnesota Twins",
+        "tag": "MIN",
+        "park": 39,
+        "colorDiscord": 16121955,
+        "colorRoster": 13111342,
+        "colorRosterBG": 11100,
+        "discordRole": "592802159704277002",
+        "logoURL": "https://i.imgur.com/NE2RAm6.png"
+      },
+      "id36": "e9i3j3"
+    },
+    "batter": {
+      "id": 606,
+      "name": "Homer Nocker",
+      "firstName": "Homer",
+      "lastName": "Nocker",
+      "redditName": "/u/CableCubed"
+    },
+    "swing": 164,
+    "pitcher": {
+      "id": 67,
+      "name": "Leonard Boyfriend",
+      "firstName": "Leonard",
+      "lastName": "Boyfriend",
+      "redditName": "/u/iunnolol"
+    },
+    "pitch": 963,
+    "diff": 201,
+    "result": "1B",
+    "beforeState": {
+      "id": 31637,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 1,
+      "inning": "B3",
+      "firstOccupied": false,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "afterState": {
+      "id": 31647,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 1,
+      "inning": "B3",
+      "firstOccupied": true,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "outsTracked": 0,
+    "runsScored": 0,
+    "scorers": null
+  },
+  {
+    "id": 31308,
+    "game": {
+      "id": 751,
+      "season": 4,
+      "session": 0,
+      "awayTeam": {
+        "id": 11,
+        "name": "Chicago Cubs",
+        "tag": "CHC",
+        "park": 10,
+        "colorDiscord": 1525430,
+        "colorRoster": 13382707,
+        "colorRosterBG": 930694,
+        "discordRole": "490677176090361866",
+        "logoURL": "https://i.imgur.com/Nw5XsQf.png"
+      },
+      "homeTeam": {
+        "id": 51,
+        "name": "Minnesota Twins",
+        "tag": "MIN",
+        "park": 39,
+        "colorDiscord": 16121955,
+        "colorRoster": 13111342,
+        "colorRosterBG": 11100,
+        "discordRole": "592802159704277002",
+        "logoURL": "https://i.imgur.com/NE2RAm6.png"
+      },
+      "id36": "e9i3j3"
+    },
+    "batter": {
+      "id": 662,
+      "name": "Joey Wheeler",
+      "firstName": "Joey",
+      "lastName": "Wheeler",
+      "redditName": "/u/hartman_"
+    },
+    "swing": 555,
+    "pitcher": {
+      "id": 67,
+      "name": "Leonard Boyfriend",
+      "firstName": "Leonard",
+      "lastName": "Boyfriend",
+      "redditName": "/u/iunnolol"
+    },
+    "pitch": 851,
+    "diff": 296,
+    "result": "FO",
+    "beforeState": {
+      "id": 31647,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 1,
+      "inning": "B3",
+      "firstOccupied": true,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "afterState": {
+      "id": 31650,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 2,
+      "inning": "B3",
+      "firstOccupied": true,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "outsTracked": 1,
+    "runsScored": 0,
+    "scorers": null
+  },
+  {
+    "id": 31310,
+    "game": {
+      "id": 751,
+      "season": 4,
+      "session": 0,
+      "awayTeam": {
+        "id": 11,
+        "name": "Chicago Cubs",
+        "tag": "CHC",
+        "park": 10,
+        "colorDiscord": 1525430,
+        "colorRoster": 13382707,
+        "colorRosterBG": 930694,
+        "discordRole": "490677176090361866",
+        "logoURL": "https://i.imgur.com/Nw5XsQf.png"
+      },
+      "homeTeam": {
+        "id": 51,
+        "name": "Minnesota Twins",
+        "tag": "MIN",
+        "park": 39,
+        "colorDiscord": 16121955,
+        "colorRoster": 13111342,
+        "colorRosterBG": 11100,
+        "discordRole": "592802159704277002",
+        "logoURL": "https://i.imgur.com/NE2RAm6.png"
+      },
+      "id36": "e9i3j3"
+    },
+    "batter": {
+      "id": 606,
+      "name": "Homer Nocker",
+      "firstName": "Homer",
+      "lastName": "Nocker",
+      "redditName": "/u/CableCubed"
+    },
+    "swing": 700,
+    "pitcher": {
+      "id": 67,
+      "name": "Leonard Boyfriend",
+      "firstName": "Leonard",
+      "lastName": "Boyfriend",
+      "redditName": "/u/iunnolol"
+    },
+    "pitch": 284,
+    "diff": 416,
+    "result": "CS 2B",
+    "beforeState": {
+      "id": 31650,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 2,
+      "inning": "B3",
+      "firstOccupied": true,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "afterState": {
+      "id": 31652,
+      "awayScore": 5,
+      "homeScore": 1,
+      "outs": 0,
+      "inning": "T4",
+      "firstOccupied": false,
+      "secondOccupied": false,
+      "thirdOccupied": false
+    },
+    "outsTracked": 1,
+    "runsScored": 0,
+    "scorers": null
+  }
+]
