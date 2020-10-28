@@ -1,3 +1,5 @@
+import urllib.request
+
 class PlateAppearance:
     
     def __init__(self, game, inning, play_id, batter, batter_id, swing, pitcher, pitcher_id, pitch, classic_result, result, result_diff, outs, obc):
@@ -16,7 +18,9 @@ class PlateAppearance:
         self.outs = outs
         self.obc = obc
 
-    
-
+def stringFromSource(source):
+        with urllib.request.urlopen(source) as url:
+            data = url.read().decode()
+        return data
 
     

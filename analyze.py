@@ -1,25 +1,30 @@
 from pull_data import *
 from structs import PlateAppearance as PA
 
-def countInRange(numList, lowerBound, upperBound):
+def getInRange(numList, lowerBound, upperBound):
     """
-    Count the number of ints within two bounds
+    Returns list of integers in specified range
     PARAMETERS
     -----------
-    numList: List of integers to count from
+    numList: List of integers to iterate
     lowerBound: INCLUSIVE lower bound of range
     upperBound: INCLUSIVE upper bound of range
     """
-    count = 0
+    in_range_list = []
     for i in numList:
         try:
             current_num = int(i)
-            if current_num >= lowerBound and current_num <= upperBound:
-                count+= 1
+            if lowerBound > upperBound:
+                #i.e. 800 to 100
+                if current_num >= lowerBound or current_num <= upperBound:
+                    in_range_list.append(current_num)
+            else:
+                if current_num >= lowerBound and current_num <= upperBound:
+                    in_range_list.append(current_num)
         except ValueError:
-            #if there is an auto or no pitch, keep going
+            #if there is non int value, ignore
             pass
-    return count
+    return in_range_list
 
 def getDiff(num1, num2):
     try:
@@ -52,12 +57,3 @@ def getDiffs(numList):
             diff_list.append("x")
         prev_num = i
     return diff_list
-
-
-    
-
-
-
-
-data = PlayerData("63", False)
-print(getDiffs(data.getPitches()))
