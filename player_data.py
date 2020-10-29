@@ -23,13 +23,21 @@ class PlayerData:
             milr_data = site_access.dictFromSource("https://milr.redditball.com/api/v2/plays/byPitcher?pitcher=" + player_num + "&csv=false")
 
         all_data = milr_data + data
-        self.data = all_data
+        sorted_data = sorted(all_data, key = lambda i: i["game"]["season"])
+        self.data = sorted_data
     
-    def sortBySeason(seasonsToInclude):
-        if "S1" in seasonsToInclude:
-            
+    def sortBySeason(self, seasonsToInclude):
+        sorted_list = []
+        for i in self.data:
+            curr_season = i["game"]["season"]
+            if curr_season in seasonsToInclude:
+                sorted_list.append(i)
+        return sorted_list
 
-pdata = PlayerData("67", False)
-print(pdata.data)
-for i in pdata.data:
-    print(i["swing"])
+
+
+
+
+pdata = PlayerData("58", True)
+for i in sorted_data:
+    print(i["pitch"])

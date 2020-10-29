@@ -15,5 +15,3 @@ class PlateAppearance:
         self.result_diff = result_diff
         self.outs = outs
         self.obc = obc
-
-""""
